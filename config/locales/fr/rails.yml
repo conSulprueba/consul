@@ -1,47 +1,25 @@
 fr:
   date:
     abbr_day_names:
-    - dim
-    - lun
-    - mar
-    - mer
-    - jeu
-    - ven
-    - sam
-    abbr_month_names:
-    -
-    - fév
-    - mar
-    - avr
-    - mai
-    - jun
-    - jul
-    - aoû
-    - sep
-    - oct
-    - nov
-    - déc
-    - Déc
+      - dim
+      - lun
+      - mar
+      - mer
+      - jeu
+      - ven
+      - sam
     day_names:
-    - dimanche
-    - lundi
-    - mardi
-    - mercredi
-    - jeudi
-    - vendredi
-    - samedi
+      - dimanche
+      - lundi
+      - mardi
+      - mercredi
+      - jeudi
+      - vendredi
+      - samedi
     formats:
       default: "%d/%m/%Y"
       long: "%d %B %Y"
       short: "%d %b"
-    month_names:
-    -
-    - février
-    - mars
-    - avril
-    - mai
-    - juin
-    - Décembre
   datetime:
     distance_in_words:
       x_minutes:
@@ -53,7 +31,7 @@ fr:
   errors:
     format: "%{attribute} %{message}"
     messages:
-      model_invalid: 'La validation omise : %{errors}'
+      model_invalid: "La validation omise : %{errors}"
       required: doit exister
       too_long:
         one: est trop long (maximum est de 1 caractère)
